@@ -1,18 +1,16 @@
-# 98五笔版鼠须管自动安装
+# 98五笔版鼠须管
 
 
-## 一：下载文件
+## 一：安装字体
 
 终端输入
 
 ``````
-curl -L https://github.com/yanhuacuo/squirrel-wb98-install/archive/refs/tags/2.0.zip -o autorun.zip
+cat 98wb-fonts.tar.gza* | tar -xzv
 ``````
 
-## 二：本地安装
+## 二：安装程序
 
-``````
-bash -c "$(curl -fsSL https://gitee.com/wubi98/shell/raw/master/wb98_install.sh)"
-``````
+解压 app.zip ，照示图双击『98wb-双击我-.command』即可。
 
 
