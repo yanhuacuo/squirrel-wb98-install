@@ -2,7 +2,7 @@
 echo "本次操作需要「管理员权限」，请输入密码"
 sudo spctl --master-disable
 path=${0%/*}
-#curl -L https://github.com/yanhuacuo/squirrel-wb98-install/archive/refs/tags/2.0.zip -o autorun.zip
+curl -L https://github.com/yanhuacuo/squirrel-wb98-install/archive/refs/tags/2.0.zip -o autorun.zip
 unzip -oq autorun.zip
 if [ ! -d ""$path"/squirrel-wb98-install-2.0" ];then
   unzip -oq autorun.zip
